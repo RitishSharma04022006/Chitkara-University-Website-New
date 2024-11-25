@@ -100,7 +100,9 @@ body {
     height: 480px;
 } */
 
-
+#mainpic{
+    height: 500px;
+}
 /* .image { */
     /* width: 100vw; */
     /* margin: 1rem 3rem; */
