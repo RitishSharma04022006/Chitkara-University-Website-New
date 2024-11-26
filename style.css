@@ -164,6 +164,16 @@ body {
     vertical-align: center;
     font-size: var(--mediumfontsize);
     font-weight: var(--mediumfontsize);
+    transition: 0.5s linear transform;
+}
+
+.aboutsection h3 span{
+    transition: 0.3s linear transform;
+}
+
+
+.aboutsection h3 span:hover {
+transform: scale(1.05);
 }
 
 .infrasturcture {
@@ -237,7 +247,7 @@ body {
 .photos img:hover{
     outline: 1px solid black;
     box-shadow: 2px 2px 30px #9a9898;
-    transform: scale(1.01);
+    transform: scale(1.04);
 }
 
 /* .infrasturcture-details{
@@ -303,9 +313,9 @@ color: white;
 }
 
 .details .images img:hover{
-    outline: 1px solid black;
+    /* outline: 1px solid black; */
     box-shadow: 2px 2px 20px #9a9898;
-    transform: scale(1.01);
+    transform: scale(1.05);
 }
 
 .bigimage{
