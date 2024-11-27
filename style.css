@@ -187,6 +187,7 @@ transform: scale(1.05);
     font-weight: var(--largestfontweight);
 }
 .infrasturcture p{
+    margin-top: 1rem;
     font-size: 1.3rem;
     line-height: var(--lineheight);
     font-size: var(--paragraphfontsize);
@@ -225,6 +226,34 @@ transform: scale(1.05);
     width: 100%;
     height: 450px;
 }
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .gallery-item {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+  }
+  
+  .gallery-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
 
 @media only screen and (max-width:426px){
     .photos {
