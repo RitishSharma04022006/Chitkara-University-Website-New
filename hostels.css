@@ -196,3 +196,14 @@ body {
     background-color: #f9f9f9;
     border-top: 1px solid #ddd;
   }
+
+  @media only screen and (max-width:768px){
+    .gallery{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .gallery-item{
+        width: 100%;
+    }
+  }

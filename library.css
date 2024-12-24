@@ -18,6 +18,8 @@
 
 }
 
+
+
 * {
     margin: 0;
     padding: 0;
@@ -301,4 +303,11 @@ color: #000B58;
     color: #333;
     background-color: #f9f9f9;
     border-top: 1px solid #ddd;
+  }
+
+  @media only screen and (max-width:768px){
+    .gallery{
+        display: flex;
+        flex-wrap: wrap;
+    }
   }

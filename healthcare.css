@@ -261,3 +261,10 @@ body {
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   }
+
+  @media only screen and (max-width:768px){
+    .gallery-item img {
+        height: 250px;
+        width: 100%;
+    }
+}

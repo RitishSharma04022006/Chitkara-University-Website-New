@@ -99,6 +99,7 @@ body {
 
 
 .contact-us {
+    /* width: 100%; */
     padding: 40px 20px;
     background-color: #f4f4f4;
     text-align: center;
@@ -108,7 +109,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    width: 40%;
+    /* width: 100%; */
     margin: 0 auto;
 }
 
@@ -299,7 +300,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    width: 40%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -325,4 +326,10 @@ body {
 
 .contact-form button:hover {
     background-color: #444;
+}
+
+@media only screen and (min-width:768px){
+    .contact-form{
+        width: 50%;
+    }
 }
